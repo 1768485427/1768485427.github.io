@@ -16,7 +16,7 @@ custom_js:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/year_square_footage.json" style="width: 100%"></vegachart>
 
 ## Chart2
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Adress_dis_chart.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/use_status_chart.json" style="width: 100%"></vegachart>
 
 <!-- these are written in a combo of html and liquid --> 
 

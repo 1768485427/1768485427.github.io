@@ -25,9 +25,6 @@ For this graph, audiences can view the relationship betweent the total floors wi
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/1768485427/1768485427.github.io/blob/main/assets/json/use_status_chart.json" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/1768485427/1768485427.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
-<div class="right">
-{% include elements/button.html link="https://github.com/1768485427/1768485427.github.io/blob/main/assets/json/year_square_footage.json" text="The Analysis" %}
-</div>

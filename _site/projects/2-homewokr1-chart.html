@@ -76,26 +76,31 @@
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
   <h1 id="homewokr-chart-1">homewokr chart 1</h1>
 
-<h2 id="chart1">Chart1</h2>
+<h2 id="chart10">Chart1.0</h2>
 <vegachart schema-url="/assets/json/year_square_footage.json" style="width: 100%"></vegachart>
-
-<h2 id="chart2">Chart2</h2>
+<p>For this graph, audiences can view the relationship betweent the year of these buildings contructed with the square footage depends on cities.Audiences can searh their prefer cities to review the relationship. The encoding type that I am using is the rectangular heatmap. The color of bin represents the density of count of records. The color more close to blue has a high density and close to yellow presents a low density. For the data transformation, I am using the transform_calculate, using the log_pop to transform the data. I use two interactive ways. One is brush. It can allow users to select the range. And another interactive ways is the dropdown. This can let users to choose what kinds of cities they want to use.</p>
+<h2 id="chart20">Chart2.0</h2>
 <vegachart schema-url="/assets/json/use_status_chart.json" style="width: 100%"></vegachart>
-
-<!-- these are written in a combo of html and liquid -->
+<p>For this graph, audiences can view the relationship betweent the total floors with the square footage depends on the bldg status.Audiences can searh the prefer status of Bldge whether it is in use, abandon or in progress. The encoding type that I am using is the rectangular heatmap. The color of bin represents the density of count of records. The color more close to blue has a high density and close to yellow presents a low density. For the data transformation, I am using the transform_calculate, using the log_pop to transform the data. I use two interactive ways. One is brush. It can allow users to select the range. And another interactive ways is the dropdown. This can let users to choose what status of the Bldg.
+<!-- these are written in a combo of html and liquid --></p>
 
 <div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv">
   The Data
 </a>
 </div>
 
 <div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/1768485427/1768485427.github.io/blob/main/python_notebooks/test_generate_plots.ipynb">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/1768485427/1768485427.github.io/blob/main/assets/json/use_status_chart.json">
   The Analysis
 </a>
 </div>
 
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/1768485427/1768485427.github.io/blob/main/assets/json/year_square_footage.json">
+  The Analysis
+</a>
+</div>
 
 </div>
   </main>
